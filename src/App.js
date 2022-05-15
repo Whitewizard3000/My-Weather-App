@@ -1,7 +1,11 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import Weather from './components/weather';
+import { Dimmer, Loader } from 'semantic-ui-react';
+
 export default function App() {
+
+
   
   const [lat, setLat] = useState([]);
   const [long, setLong] = useState([]);
