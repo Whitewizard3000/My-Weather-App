@@ -1,4 +1,4 @@
-Let's add a refresh button at the top of our page.
+
 
 import React from 'react';
 import './styles.css';
